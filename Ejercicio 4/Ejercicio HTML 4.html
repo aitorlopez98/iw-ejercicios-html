@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Ejercico HTML 4</title>
+    </head>
+    <body>
+        <h1>Info Aitor</h1>
+        <hr>
+        <h2>Acerca de mí</h2>
+        <fieldset>
+            <legend>¿Quien soy?</legend>
+            <p>
+                Me llamo Aitor López y tengo 21 años, actualmente estudio
+                un grado universitario dual llamado <Strong>Industría Digital</Strong> en la 
+                universidad de Deusto, en Vitoria-Gasteiz.
+            </p>
+            <p>
+                Entre mis aficiones principales estan el baloncesto y bucear, sobre todo el baloncesto.
+                Es por ello que lo practico de dos formas, soy jugador en un equipo de tercera senior 
+                llamado Viajes Olarizu y tambien soy entrenador de un equipo cadete masculino en el equipo 
+                Fundación 5+11 Hegoalde, siendo este parte del Baskonia.
+            </p>
+        </fieldset>
+
+        <h2>Actualmente</h2>
+        <fieldset>
+            <legend>Formación Dual</legend>
+            <p>Como he mencionado anteriormente estudio una carrera dual, la 
+                empresa en la que desarrollo la formacion dual es en la empresa 
+                Talleres Aratz (<a href="https://www.talleresaratz.com/">si quieres saber mas</a>) donde realizo 
+                diferentes proyectos como por ejemplo:
+                <ul>
+                    <li>
+                        Implantción del sistema de gestion de planta
+                    </li>
+                    <li>
+                        Copias de seguridad de PLCs de maquinas CNC
+                    </li>
+                    <li>
+                        Estandarización de conjuntos para vacío
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+
+        <h2>Acerca de los estudios</h2>
+        <fieldset>
+            <legend>Un vistazo al pasado</legend>
+            <p>Antes de entrar en este grado obtuve otras titulaciones 
+                que me permitieron acceder al el.
+            </p>
+            <table border="1px">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Fecha<br>finalización</th>
+                </tr>
+                <tr>
+                    <td>Bachillerato Cientifico-Tegnologico</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Automatización y Robótica Industrial</td>
+                    <td>2018</td>
+                </tr>
+            </table>
+        </fieldset>    
+
+        <h2>Entrevista</h2>
+        <p>
+            Si deseas hablar conmigo en persona rellena el siguiente formulario 
+            para fijar una fecha y hora.
+        </p>
+        <fieldset>
+            <legend>Datos de la reserva</legend>
+            <p>Forma de contacto</p>
+            Email: <input type="text">
+            <br>
+            Numero de móvil: <input type="text">
+            <p>Edad
+                <select>
+                    <option>Menor de 18</option>
+                    <option selected>Entre 18 y 25</option>
+                    <option>Entre 26 y 45</option>
+                    <option>Entre 46 y 65</option>
+                    <option>Mayor de 65</option>
+                </select>
+            </p>
+
+            <p>¿Cual es tu ocupacion?</p>
+            <input type="radio" name="ocupacion" id="estudiante">
+            <label for="estudiante">Estudiante</label>
+            <br>
+            <input type="radio" name="ocupacion" id="trabajador">
+            <label for="trabajador">Trabajador</label>
+            <br>
+            <input type="radio" name="ocupacion" id="otro">
+            <label for="otro">Otro</label>
+
+            <p>Selecciona la fecha y hora:</p>
+            <input type="date">
+            <input type="time">
+            <br>
+            <br>
+            <textarea rows="8">Tema que deseas tartar:</textarea><br>
+        </fieldset>
+        <br>
+        <input type="checkbox" id="terminos">
+        <label for="terminos">Acepto los terminos</label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </body>
+</html>
