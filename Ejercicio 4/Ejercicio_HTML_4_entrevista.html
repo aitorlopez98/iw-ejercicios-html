@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h2>Entrevista</h2>
+        <p>
+            Si deseas hablar conmigo en persona rellena el siguiente formulario 
+            para fijar una fecha y hora.
+        </p>
+        <fieldset>
+            <legend>Datos de la reserva</legend>
+            <p>Forma de contacto</p>
+            Email: <input type="text">
+            <br>
+            Numero de móvil: <input type="text">
+            <p>Edad
+                <select>
+                    <option>Menor de 18</option>
+                    <option selected>Entre 18 y 25</option>
+                    <option>Entre 26 y 45</option>
+                    <option>Entre 46 y 65</option>
+                    <option>Mayor de 65</option>
+                </select>
+            </p>
+
+            <p>¿Cual es tu ocupacion?</p>
+            <input type="radio" name="ocupacion" id="estudiante">
+            <label for="estudiante">Estudiante</label>
+            <br>
+            <input type="radio" name="ocupacion" id="trabajador">
+            <label for="trabajador">Trabajador</label>
+            <br>
+            <input type="radio" name="ocupacion" id="otro">
+            <label for="otro">Otro</label>
+
+            <p>Selecciona la fecha y hora:</p>
+            <input type="date">
+            <input type="time">
+            <br>
+            <br>
+            <textarea rows="8">Tema que deseas tartar:</textarea><br>
+        </fieldset>
+        <br>
+        <input type="checkbox" id="terminos">
+        <label for="terminos">Acepto los terminos</label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </body>
+</html>
